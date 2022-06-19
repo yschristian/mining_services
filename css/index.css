@@ -71,40 +71,6 @@ body{
   .home{
     margin-bottom: 80px;
   }
-  /* @media (min-width: 1024px) {
-    .hero {
-      background-attachment: fixed;
-    }
-  }
-  @media (max-width: 991px) {
-    .hero {
-      height: auto;
-      padding: 120px 0 60px 0;
-    }
-    .home .home-img {
-      text-align: center;
-      margin-top: 80px;
-    }
-    .home .home-img img {
-      width: 80%;
-    }
-  } */
-  /* @media (max-width: 768px) {
-    .home {
-      text-align: center;
-    }
-    .home h1 {
-      font-size: 32px;
-    }
-    .home h2 {
-      font-size: 24px;
-    }
-    .home .home-img img {
-      width: 100%;
-    }
-  } */
-
-
 
 /* about */
 .about{
@@ -281,21 +247,62 @@ body{
   .back-to-top {
      right: 15px;
   }
-
-
   
-  /* .back-to-top i {
-    font-size: 24px;
-    color: #fff;
-    line-height: 0;
-  }
-  .back-to-top:hover {
-    background: #6776f4;
-    color: #fff;
-  }
-  .back-to-top.active {
-    visibility: visible;
-    opacity: 1;
-  } */
+ .community{
+  margin-top: 80px;
+  margin-bottom: 80px;
+ }
+ .community .box{
+  padding: 30px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+  height: 100%;
+ }
+ .community .box img{
+  transition: 0.5s;
+  translate: scale(1.1);
+  padding: 30px 50px;
+ }
+ .community .box h3{
+  font-size: 24px;
+  color: #00bfff;
+  font-weight: 700;
+  margin-bottom: 18px;
+ }
+ .community .box:hover {
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+.community .box:hover img{
+  transform: scale(1);
+}
+.community .read-more{
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #00bfff;
+  box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+  text-decoration: none;
+
+}
+.community .btn-read-more span {
+  font-family: "Poppins SemiBold";
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
   
+}
+.community  .btn-read-more i {
+  margin-left: 5px;
+  font-size: 18px;
+  transition: 0.3s;
  
+}
+.community .btn-read-more:hover i {
+  transform: translateX(5px);
+}
+.garrely .carousel-item img{
+   height: fit-content;
+}
