@@ -165,6 +165,23 @@ body{
     padding: 30px;
     height: 100%;
   }
+  .contact .contact-form input, .contact .contact-form textarea{
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+  }
+  .contact .contact-form input:focus, .contact .contact-form textarea:focus{
+    border-color: #00bfff;
+  }
+  .contact .contact-form input{
+    padding: 10px 15px;
+  }
+  .contact .contact-form textarea{
+    padding: 12px 15px;
+  }
+  .contact .contact-form button[type=submit]:hover{
+    background-color: #00bfff;
+  }
   .section-header {
     text-align: center;
     padding-bottom: 40px;
@@ -204,10 +221,11 @@ body{
   .services .service-box p{
     font-family: "Poppins SemiBold";
   }
+
+
   /* team */
   .team{
     margin-bottom: 80px;
-    /* background: #fff; */
     padding: 60px 0;
   }
   .team .member {
@@ -280,3 +298,4 @@ body{
     opacity: 1;
   } */
   
+ 
