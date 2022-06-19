@@ -4,7 +4,25 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
 }
 /* nav-bar */
-
+  nav a.nav-link{
+    letter-spacing: 2px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .navbar ul li{
+    text-transform: uppercase;
+  }
+  .navbar-nav li a{
+    margin-left: 12px;
+    margin-right: 12px;
+    color:#00bfff
+  }
+  .navbar-brand{
+    max-width: 17.25rem;
+    height: 12%;
+    width: 12%;
+    
+  }
  /* home */
   .home h1 {
     margin: 0;
@@ -142,6 +160,11 @@ body{
     text-decoration: none;
     color: #00bfff;
   }
+  .contact .contact-form{
+    background: #f6f9ff;
+    padding: 30px;
+    height: 100%;
+  }
   .section-header {
     text-align: center;
     padding-bottom: 40px;
@@ -237,20 +260,13 @@ body{
     color: #00bfff;
   }
 
-  .back-to-top{
-    position: fixed;
-    visibility: hidden;
-    opacity: 0;
-    right: 15px;
-    bottom: 15px;
-    z-index: 99999;
-    background: #4154f1;
-    width: 40px;
-    height: 40px;
-    border-radius: 4px;
-    transition: all 0.4s;
+  .back-to-top {
+     right: 15px;
   }
-  .back-to-top i {
+
+
+  
+  /* .back-to-top i {
     font-size: 24px;
     color: #fff;
     line-height: 0;
@@ -262,4 +278,5 @@ body{
   .back-to-top.active {
     visibility: visible;
     opacity: 1;
-  }
+  } */
+  
