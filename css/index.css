@@ -231,8 +231,11 @@ body{
     transform: scale(1.08);
     transition: 1.6s ease-out;
   }
-  .garrely{
-    margin-bottom: 80px;
+  .team .member .social i {
+    padding: 3px;
+  }
+  .team .member .social a:hover {
+    color: #00bfff;
   }
   /* footer */
   .footer {
